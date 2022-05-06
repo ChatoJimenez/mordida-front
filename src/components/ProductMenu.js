@@ -57,7 +57,7 @@ const ProductMenu = ({ list, setList }) => {
   console.log(product);
 
   const { data: products, error } = useFetch(
-    "http://localhost:8080/api/products/" + product
+    "https://mordida-spring-gcp.uc.r.appspot.com/api/products/" + product
   );
 
   const [show, setShow] = useState(false);

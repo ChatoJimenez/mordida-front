@@ -22,7 +22,7 @@ const CreateProduct = ({ setLogin }) => {
       extras: ingredientList,
     };
     //Enviar objeto al API
-    fetch("http://localhost:8080/api/products", {
+    fetch("https://mordida-spring-gcp.uc.r.appspot.com/api/products", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(product),

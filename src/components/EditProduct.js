@@ -46,7 +46,7 @@ const EditProduct = () => {
   console.log(product);
 
   const { data: products, error } = useFetch(
-    "http://localhost:8080/api/products"
+    "https://mordida-spring-gcp.uc.r.appspot.com/api/products"
   );
 
   //Estados para form
@@ -94,7 +94,7 @@ const EditProduct = () => {
       extras: ingredientList,
     };
     //Enviar objeto al API
-    fetch("http://localhost:8080/api/product/" + id, {
+    fetch("https://mordida-spring-gcp.uc.r.appspot.com/api/product/" + id, {
       method: "PUT",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(product),

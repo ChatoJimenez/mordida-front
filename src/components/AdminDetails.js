@@ -39,7 +39,9 @@ const months = [
 ];
 
 const TotalDetails = () => {
-  const { data: orders, error } = useFetch("http://localhost:8080/api/orders");
+  const { data: orders, error } = useFetch(
+    "https://mordida-spring-gcp.uc.r.appspot.com/api/orders"
+  );
 
   return (
     <Container className="p-4">

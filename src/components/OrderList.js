@@ -64,7 +64,7 @@ const OrderList = ({ list, setList }) => {
       productList: list,
     };
 
-    fetch("http://localhost:8080/api/orders", {
+    fetch("https://mordida-spring-gcp.uc.r.appspot.com/api/orders", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(order),

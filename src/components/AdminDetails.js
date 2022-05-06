@@ -125,7 +125,9 @@ const TotalDetails = () => {
 };
 
 const TodayDetails = () => {
-  const { data: orders, error } = useFetch("http://localhost:8080/api/orders");
+  const { data: orders, error } = useFetch(
+    "https://mordida-spring-gcp.uc.r.appspot.com/api/orders"
+  );
 
   const filteredOrders =
     orders && orders.filter((order) => filterByToday(order));
@@ -219,7 +221,9 @@ const TodayDetails = () => {
 };
 
 const MonthDetails = () => {
-  const { data: orders, error } = useFetch("http://localhost:8080/api/orders");
+  const { data: orders, error } = useFetch(
+    "https://mordida-spring-gcp.uc.r.appspot.com/api/orders"
+  );
 
   /*const filterByToday = (order) => {
     return (

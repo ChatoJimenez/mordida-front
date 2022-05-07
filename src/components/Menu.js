@@ -1,8 +1,5 @@
 import styled from "styled-components";
-import bebida from "../assets/bebida.png";
-import complemento from "../assets/complemento.png";
-import desayuno from "../assets/desayuno.png";
-import torta from "../assets/torta.png";
+import { getImageByRoute } from "../functions/Images";
 import { useNavigate } from "react-router-dom";
 
 const StyledDiv = styled.div`
@@ -45,19 +42,19 @@ const Menu = () => {
       <h2 className="bold">Productos</h2>
       <Grid>
         <Product onClick={() => handleClick("food")}>
-          <img src={desayuno} alt="desayuno"></img>
+          <img src={getImageByRoute("food")} alt="desayuno"></img>
           <h4 className="bold mt-4 grey-color mb-0">DESAYUNO</h4>
         </Product>
         <Product onClick={() => handleClick("tortas")}>
-          <img src={torta} alt="tortas"></img>
+          <img src={getImageByRoute("torta")} alt="tortas"></img>
           <h4 className="bold mt-4 grey-color mb-0">TORTAS</h4>
         </Product>
         <Product onClick={() => handleClick("beverages")}>
-          <img src={bebida} alt="bebida"></img>
+          <img src={getImageByRoute("beverage")} alt="bebida"></img>
           <h4 className="bold mt-4 grey-color mb-0">BEBIDAS</h4>
         </Product>
         <Product onClick={() => handleClick("complements")}>
-          <img src={complemento} alt="complemento"></img>
+          <img src={getImageByRoute("complement")} alt="complemento"></img>
           <h4 className="bold mt-4 grey-color mb-0">COMPLEMENTOS</h4>
         </Product>
       </Grid>

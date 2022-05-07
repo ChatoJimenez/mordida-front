@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Admin from "./components/Admin";
 import ProductMenu from "./components/ProductMenu";
 import { useState } from "react";
+import Home from "./components/Home";
 
 function App() {
   const [productList, setProductList] = useState([]);
@@ -15,6 +16,7 @@ function App() {
       <Router>
         <Nav />
         <Routes>
+          <Route path={"/mordida-front"} element={<Home />} />
           <Route path={"/admin/*"} element={<Admin />} />
           <Route
             path={"/products/*"}

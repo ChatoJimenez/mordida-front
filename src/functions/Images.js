@@ -7,10 +7,14 @@ import totalImg from "../assets/money.png";
 import editImg from "../assets/edit.png";
 import dayImg from "../assets/day.png";
 import monthImg from "../assets/month.png";
+import menuImg from "../assets/menu.png";
+import adminImg from "../assets/admin.png";
 
 const images = {
+  admin: adminImg,
   beverage: bebidaImg,
   complement: complementoImg,
+  menu: menuImg,
   food: desayunoImg,
   torta: tortaImg,
   create: createImg,

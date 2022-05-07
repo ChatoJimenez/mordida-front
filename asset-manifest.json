@@ -1,21 +1,23 @@
 {
   "files": {
-    "main.css": "/mordida-front/static/css/main.75f751b8.css",
-    "main.js": "/mordida-front/static/js/main.46acafc5.js",
+    "main.css": "/mordida-front/static/css/main.9478bffb.css",
+    "main.js": "/mordida-front/static/js/main.2f82aa71.js",
+    "static/media/complemento.png": "/mordida-front/static/media/complemento.e8a818f497f73e0d7cd4.png",
     "static/media/money.png": "/mordida-front/static/media/money.f7ddea663acf2147a323.png",
+    "static/media/admin.png": "/mordida-front/static/media/admin.1d5f52aeec41eb6d9e7e.png",
     "static/media/desayuno.png": "/mordida-front/static/media/desayuno.fa5d5308c56f0caf6e95.png",
     "static/media/month.png": "/mordida-front/static/media/month.4f66457c4d6ae083a71a.png",
     "static/media/day.png": "/mordida-front/static/media/day.a4a5313291ed5d25a0b2.png",
     "static/media/edit.png": "/mordida-front/static/media/edit.5d07737263386cf4b937.png",
     "static/media/torta.png": "/mordida-front/static/media/torta.29cecb995810b81dc4e8.png",
     "static/media/bebida.png": "/mordida-front/static/media/bebida.8a3dd0b8f2947131b995.png",
-    "static/media/complemento.png": "/mordida-front/static/media/complemento.8b5dc7b09860b93803eb.png",
+    "static/media/menu.png": "/mordida-front/static/media/menu.8b5dc7b09860b93803eb.png",
     "index.html": "/mordida-front/index.html",
-    "main.75f751b8.css.map": "/mordida-front/static/css/main.75f751b8.css.map",
-    "main.46acafc5.js.map": "/mordida-front/static/js/main.46acafc5.js.map"
+    "main.9478bffb.css.map": "/mordida-front/static/css/main.9478bffb.css.map",
+    "main.2f82aa71.js.map": "/mordida-front/static/js/main.2f82aa71.js.map"
   },
   "entrypoints": [
-    "static/css/main.75f751b8.css",
-    "static/js/main.46acafc5.js"
+    "static/css/main.9478bffb.css",
+    "static/js/main.2f82aa71.js"
   ]
 }
